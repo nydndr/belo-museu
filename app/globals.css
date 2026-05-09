@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-monomakh: var(--font-monomakh);
+  --font-habibi: var(--font-habibi);
+  --font-intel-mono: var(--font-intel-mono);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
